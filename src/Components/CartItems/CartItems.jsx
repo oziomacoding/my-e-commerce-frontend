@@ -12,7 +12,7 @@ const CartItems = () => {
       const email = "customer@example.com"; // Replace with actual email
       const amount = getTotalCartAmount();
 
-      const response = await axios.post('https://my-e-commerce-backend.vercel.app/pay', { email, amount });
+      const response = await axios.post('https://my-e-commerce-e6g4.vercel.app/pay', { email, amount });
 
       if (response.data.status) {
         // Redirect to the authorization URL

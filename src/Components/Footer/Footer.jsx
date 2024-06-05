@@ -13,26 +13,35 @@ const Footer = () => {
     <p>AU STORES</p>
     </div>
     <ul className="footer-links">
-        <li>Company</li>
+        <li><a href="" >Company</a></li>
         <li>Product</li>
         <li>Offices</li>
         <li>About</li>
         <li>Contact</li>
     </ul>
-    <div className="footer-social-icon">
-<div className="footer-icons-container">
-    <img src={instagram_icon} alt="" />
-   
-</div>
-<div className="footer-icons-container">
-    <img src={pintester_icon} alt="" />
+    <div className="footer-social-icon" >
+                <div className="footer-icons-container">
+                    <a href="https:instagram.com/oziomaleen" >
+                    <img src={instagram_icon} alt="" />
+                </a>
 
-</div>
-<div className="footer-icons-container">
-    <img src={whatsapp_icon} alt="" />
+                </div>
 
-</div>
-</div>
+                <div className="footer-icons-container">
+                    <a href="https:pinterest.com/oziomaleen" >
+                    <img src={pintester_icon} alt="" />
+                </a>
+
+                </div>
+                <div className="footer-icons-container">
+                <a href="https://wa.me/+2348101156717" >
+                    <img src={whatsapp_icon} alt="" />
+                </a>
+
+                </div>
+
+
+            </div>
 <div className="footer-copyright">
 <hr />
 <p>Copyright @ 2024 - All Rights Reserved</p>

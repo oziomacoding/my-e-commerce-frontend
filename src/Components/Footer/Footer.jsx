@@ -13,7 +13,7 @@ const Footer = () => {
     <p>AU STORES</p>
     </div>
     <ul className="footer-links">
-        <li><a href="" >Company</a></li>
+        <li>Company</li>
         <li>Product</li>
         <li>Offices</li>
         <li>About</li>
@@ -21,20 +21,20 @@ const Footer = () => {
     </ul>
     <div className="footer-social-icon" >
                 <div className="footer-icons-container">
-                    <a href="https://instagram.com/oziomaleen" >
+                    <a href="https://instagram.com/oziomaleen" target="_blank">
                     <img src={instagram_icon} alt="" />
                 </a>
 
                 </div>
 
                 <div className="footer-icons-container">
-                    <a href="https://pinterest.com/oziomaleen" >
+                    <a href="https://pinterest.com/oziomaleen" target="_blank">
                     <img src={pintester_icon} alt="" />
                 </a>
 
                 </div>
                 <div className="footer-icons-container">
-                <a href="https://wa.me/+2348101156717" >
+                <a href="https://wa.me/+2348101156717" target="_blank">
                     <img src={whatsapp_icon} alt="" />
                 </a>
 

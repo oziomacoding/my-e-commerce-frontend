@@ -1,0 +1,26 @@
+.offices-container {
+    padding: 20px;
+}
+
+.office {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.office h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.office p {
+    margin: 0;
+    color: #666;
+}
+
+.office:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last office */
+}

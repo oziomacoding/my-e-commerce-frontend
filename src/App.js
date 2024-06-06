@@ -11,6 +11,10 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png';
 import women_banner from './Components/Assets/banner_women.png';
 import kid_banner from './Components/Assets/banner_kids.png';
+import Company from './Pages/Company';
+import Offices from './Pages/Offices';
+import AboutUs from './Pages/AboutUs';
+import Contact from './Pages/Contact';
 
 
 function App() {
@@ -29,6 +33,11 @@ function App() {
 
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/login' element={<LoginSignup/>}/>
+      <Route path='/company' element={<Company/>}/>
+      <Route path='/offices' element={<Offices/>}/>
+      <Route path='/about' element={<AboutUs/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+
 
 
      </Routes>

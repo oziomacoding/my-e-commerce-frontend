@@ -1,0 +1,52 @@
+.contact-container {
+    padding: 20px;
+    color: #333; /* Text color */
+}
+
+.contact-container h1 {
+    color: #005792; /* Heading color */
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-media {
+    margin-top: 40px;
+}
+
+.social-media h2 {
+    color: #005792; /* Heading color */
+    margin-bottom: 20px;
+}
+
+.social-media p {
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #005792; /* Link color */
+}
+
+.social-media ul li:hover {
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer;
+}

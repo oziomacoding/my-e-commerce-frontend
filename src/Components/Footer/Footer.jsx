@@ -20,14 +20,14 @@ const Footer = () => {
             </ul>
             <div className="footer-social-icon" >
                 <div className="footer-icons-container">
-                    <a href="https:instagram.com/oziomaleen" >
+                    <a href="https://instagram.com/oziomaleen" >
                         <img src={instagram_icon} alt="" />
                     </a>
 
                 </div>
 
                 <div className="footer-icons-container">
-                    <a href="https:pinterest.com/oziomaleen" >
+                    <a href="https://pinterest.com/oziomaleen" >
                         <img src={pintester_icon} alt="" />
                     </a>
 
